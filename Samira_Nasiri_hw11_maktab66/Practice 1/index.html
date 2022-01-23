@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+    <title>TO DO</title>
+</head>
+<body>
+    <div class="toDo-container">
+        <div class="toDo-background background-light"></div>
+        <div class="toDo-list">
+            <div class="toDo-header">
+                <h2 class="toDo-title">To Do</h2>
+                <div class="toDo-mode moon"></div>
+            </div>
+            <div class="toDo-body">
+                <div class="toDo-creatNew">
+                    <input type="text" id="toDo-input" placeholder="Creat a new todo...">
+                </div>
+                <div class="toDo-items">
+                    <ul class="items"></ul>
+                </div>
+                <div class="toDo-info">
+                    <p><span class="numOfLeft">0</span> items left</p>
+                    <p id="clearCompleted">Clear Completed</p>
+                </div>
+                <div class="toDo-filter">
+                    <p id="all">All</p>
+                    <p id="active">Active</p>
+                    <p id="completed">Completed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
